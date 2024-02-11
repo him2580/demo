@@ -1,0 +1,39 @@
+>>date | echo "this is today"
+o/p: this is today
+
+============================
+
+| :- will not work here as expected it will not pass the output to next command.
+
+because, "DATE" is "stdin" command whih will send store in default.
+
+==========================
+
+awk command: to print specific string from bunch of lines.
+
+eg: Hi Himanshu is reporting.
+
+I want to print reporting word so using awk command it will be:--
+
+--awk -F" " '{print $4}'
+
+================================
+
+set -x > debug mode
+set -e > exit the script if any error generate.
+set -o pipefail > whenver pipe command fail
+
+wget > download
+
+curl > to get data from online url/site
+
+
+====================================
+
+find command :- sudo find / -name "pam"
+
+
+
+
+
+
